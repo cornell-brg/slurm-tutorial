@@ -1,7 +1,7 @@
 #include <array>
 #include <gem5/m5ops.h>
 
-const int arr_size = 10000;
+const int arr_size = 100;
 const int reps = 10;
 
 int main()

@@ -7,8 +7,8 @@ find_program(CMAKE_ASM_COMPILER riscv64-unknown-elf-gcc)
 
 project(slurm-tutorial CXX C ASM)
 
-set(CMAKE_C_FLAGS   "${CMAKE_C_FLAGS} -Wall -O3 -static")
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -O3 -static")
+set(CMAKE_C_FLAGS   "${CMAKE_C_FLAGS} -Wall -static")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -static")
 
 link_directories($ENV{GEM5_M5_LIB}/riscv)
 
